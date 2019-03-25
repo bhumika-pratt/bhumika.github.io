@@ -65,9 +65,12 @@ ul#nav {
     	}
 
       #content {
-	background: url(c1.jpg) repeat-y;
-	padding: 50px 50px; overflow: hidden;
-}
+	background: #bbc5bc;
+
+	padding: 50px;
+	margin: 50px;
+	overflow: hidden;
+	}
 	#content h2 {
 		font: 30px Georgia, Serif; letter-spacing: 2px; margin: 0 0 20px 0;
 	}
