@@ -7,7 +7,7 @@ fieldset, input, textarea, blockquote
 }
 
 body {
-	background: #f2f0eb url(bg.jpg) center no-repeat;
+	background: #f2f0eb url(bg1.jpg) center no-repeat;
 	background-size: cover;
 	font: 16px Helvetica, Arial, Sans-Serif;
 	color: #111111;
@@ -35,7 +35,7 @@ ul#nav li:last-child {
      margin: 0;
    }
 ul#nav li a {
- 			color: white;
+ 			color: black;
  			text-decoration: none;
 }
 
@@ -45,10 +45,10 @@ ul#nav li a:hover {
 
 #header h1 {
     font: 34px 'Playfair Display SC', serif;
-    color: #f2f0eb;
+    color: #000000;
     letter-spacing: 2px;
     margin: 0 0 20px 0;
-    text-shadow: 0px 3px 3px #494949;
+    text-shadow: 0px 2px 2px #494949;
 }
 
 #header h2 {
@@ -60,7 +60,8 @@ ul#nav li a:hover {
 		text-shadow: 0px 3px 3px #494949;
 }
 #content {
-		background: #bbc5bc;
+		background: #000000;
+	  color: white;
 		clear: both;
 		}
 #content h2 {
@@ -70,7 +71,8 @@ ul#nav li a:hover {
 		}
 
 #content h3 {
-			font: 20px Georgia, Serif;
+			font: 1px Georgia, Serif;
+			color: white;
 			letter-spacing: 2px;
 			margin: 0 0 20px 0;
 		}
@@ -92,10 +94,17 @@ ul#nav li a:hover {
 		clear: both;
 	}
 
-#content .portfolio-item img {
+#content .about {
+	width: 40%;
+  float: left;
+}
+
+#content .about-image {
 		width: 60%;
 		height: auto;
+		float : right;
 	}
+
 	#content .portfolio-item p.btn {
 		margin: 0;
 	}
@@ -111,5 +120,6 @@ ul#nav li a:hover {
 		text-decoration: none;
 	}
 	#footer {
+		clear: both;
 		margin-top: 50px;
 	}
